@@ -1,0 +1,32 @@
+.header{
+  display: flex; 
+  justify-content:space-between ; 
+  align-items:center ;
+  position: sticky;
+  top: 0 ;
+  background-color:#fff ;
+  z-index: 100;
+  width:100% ;
+}
+
+.header_log{
+
+
+    object-fit: contain;
+    height: 100px;
+    margin-left: 20px;
+}
+.header_center > input{
+    
+    border: radius;
+    padding: 10px; ;
+    outline-width: 0;
+}
+.header_right{
+ display:flex ;
+ align-items:center ;
+ justify-content: space-between ;
+ width:15vw ;
+ margin-right: 80px;
+
+}

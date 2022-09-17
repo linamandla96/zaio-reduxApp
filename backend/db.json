@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "linamandla jojwana",
+      "email": "prashidi@123.com",
+      "phone": "1-770-736-8031"
+    },
+    {
+      "id": 2,
+      "name": "Jodie Howell",
+      "email": "Jodie@melissa.tv",
+      "phone": "010-692-6593"
+    },
+    {
+      "email": "jojwana96@gmail.com",
+      "password": "4243191",
+      "id": 3
+    },
+    {
+      "email": "lina96@gmail.com",
+      "password": "243191",
+      "id": 4
+    }
+  ],
+  "bookings": [
+    {
+      "listingId": 1,
+      "startDate": "2022-02-20",
+      "endDate": "2022-02-21",
+      "userId": "1"
+    }
+  ],
+  "listings": [
+    {
+      "id": 1,
+      "img":"https://www.jonesaroundtheworld.com/wp-content/uploads/2020/10/Texas-Airbnb.jpg",
+      "title":"Safety House",
+      "description": "Beautiful place,with good views",
+      "bath_num": 3,
+      "bed_num": 4,
+      "zip": 23456,
+      "address": "Shomolu Street",
+      "city": "Ikeja",
+      "street": "Agege",
+      "price": 2000,
+      "sq_ft": 4.2,
+      "email": "test@test.com",
+      "userId": 2
+    }
+  ]
+}

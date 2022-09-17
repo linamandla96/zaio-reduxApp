@@ -1,0 +1,48 @@
+# GET ALL USERS
+GET http://localhost:5000/users/
+###
+
+# GET A SINGLE USER
+GET http://localhost:5000/users/2
+###
+
+# REGISTER A USER
+POST  http://localhost:5000/users
+content-type:application/json
+
+{
+  
+  "email":"jojwana96@gmail.com",
+  "password":"4243191"
+}
+
+###
+# SIGN IN
+POST  http://localhost:5000/users
+content-type:application/json
+
+{
+  "email":"lina96@gmail.com",
+  "password":"243191"
+}
+
+###
+
+# GET ALL BOOKINGS FOR A USER                         I
+http://localhost:5000/users/1/bookings
+
+
+###
+http://localhost:5000/listings/
+###
+
+
+# POST http://localhost:5000/posts HTTP/1.1
+
+
+
+# {
+    
+#     "title": "airbnb clone",
+#     "author": "linamandla"
+#   }

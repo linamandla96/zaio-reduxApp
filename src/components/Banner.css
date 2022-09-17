@@ -1,0 +1,44 @@
+.banner{
+    height: 50vh;
+    position: relative;
+    background-image: url(https://i0.wp.com/www.godsavethepoints.com/wp-content/uploads/2017/08/bali-airbnb3.jpg?fit=1440%2C960&ssl=1);
+    
+}
+
+.banner_info{
+    background-color: black;
+    color: white;
+    padding-top: 2vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-bottom: 4vh;
+    width: 300px;
+}
+
+.banner_info > button{
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.banner_info > button:hover{
+     background-color: white;
+     color: #ff7779;
+}
+
+banner_info > h5{
+    margin-top: 10px;
+
+}
+.banner_search{
+    display: flex;
+    flex-direction: column;
+}
+.banner_searchButton{
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+}
